@@ -1,0 +1,15 @@
+C:\Avanade\TC-Back-End\Idade\ConsultarIdade\bin\Debug\net6.0\ConsultarIdade.exe
+C:\Avanade\TC-Back-End\Idade\ConsultarIdade\bin\Debug\net6.0\ConsultarIdade.deps.json
+C:\Avanade\TC-Back-End\Idade\ConsultarIdade\bin\Debug\net6.0\ConsultarIdade.runtimeconfig.json
+C:\Avanade\TC-Back-End\Idade\ConsultarIdade\bin\Debug\net6.0\ConsultarIdade.dll
+C:\Avanade\TC-Back-End\Idade\ConsultarIdade\bin\Debug\net6.0\ConsultarIdade.pdb
+C:\Avanade\TC-Back-End\Idade\ConsultarIdade\obj\Debug\net6.0\ConsultarIdade.csproj.AssemblyReference.cache
+C:\Avanade\TC-Back-End\Idade\ConsultarIdade\obj\Debug\net6.0\ConsultarIdade.GeneratedMSBuildEditorConfig.editorconfig
+C:\Avanade\TC-Back-End\Idade\ConsultarIdade\obj\Debug\net6.0\ConsultarIdade.AssemblyInfoInputs.cache
+C:\Avanade\TC-Back-End\Idade\ConsultarIdade\obj\Debug\net6.0\ConsultarIdade.AssemblyInfo.cs
+C:\Avanade\TC-Back-End\Idade\ConsultarIdade\obj\Debug\net6.0\ConsultarIdade.csproj.CoreCompileInputs.cache
+C:\Avanade\TC-Back-End\Idade\ConsultarIdade\obj\Debug\net6.0\ConsultarIdade.dll
+C:\Avanade\TC-Back-End\Idade\ConsultarIdade\obj\Debug\net6.0\refint\ConsultarIdade.dll
+C:\Avanade\TC-Back-End\Idade\ConsultarIdade\obj\Debug\net6.0\ConsultarIdade.pdb
+C:\Avanade\TC-Back-End\Idade\ConsultarIdade\obj\Debug\net6.0\ConsultarIdade.genruntimeconfig.cache
+C:\Avanade\TC-Back-End\Idade\ConsultarIdade\obj\Debug\net6.0\ref\ConsultarIdade.dll
