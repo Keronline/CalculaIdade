@@ -8,35 +8,33 @@ namespace ConsultarIdade
 {
     internal class Pessoa
     {
-        public string Name { get; set; }
-        
-        public string BirthDate { get; set; }
+        public string Name { get; set; }        
+        public DateTime BirthDate { get; set; }
+        public int Age { get; set; }        
 
-        public int Age { get; set; }
-
-        public Pessoa(string name, string birthDate)
+        public DateTime today = DateTime.Now;
+        public Pessoa(string name, string[] birthDate)
         {
             Name = name;
-            BirthDate = birthDate;
+            BirthDate = DateTime.Parse($"{birthDate[1]}/{birthDate[0]}/{birthDate[2]}");
+            CalculaIdade();
         }
+        public int CalcAge()
+        {    
+            Age = today.Year - BirthDate.Year;
 
-        public void ShowAge() // 12/08/1985
-        {
-            int dayBirth = int.Parse(BirthDate.Substring(0,2));
-            int monthBirth = int.Parse(BirthDate.Substring(3,2));            
-            int yearBirth = int.Parse(BirthDate.Substring(6,4));
-
-            var today = DateTime.Now;
-
-            Age = today.Year - yearBirth;
-
-            if (monthBirth > today.Month || monthBirth == today.Month && dayBirth > today.Day)
+            if (BirthDate.Month > today.Month || BirthDate.Month == today.Month && BirthDate.Day > today.Day)
             {
                 Age -= 1;
             }
-            
+
+            return Age;
+        }
+        public void ShowAge() // 12/08/1985
+        {            
             Console.Clear();
-            if(monthBirth == today.Month && dayBirth == today.Day)
+
+            if(BirthDate.Month == today.Month && BirthDate.Day == today.Day)
             {
                 Console.WriteLine($"Hoje é aniversário de {Name}! Parábens!");
             }                       
