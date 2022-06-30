@@ -8,17 +8,18 @@ namespace ConsultarIdade
 {
     internal class Pessoa
     {
-        public string Name { get; set; }        
-        public DateTime BirthDate { get; set; }
+        public string Name { get; set; }  
         public int Age { get; set; }        
-
+        public DateTime BirthDate { get; set; }         
         public DateTime today = DateTime.Now;
+
         public Pessoa(string name, string[] birthDate)
         {
             Name = name;
             BirthDate = DateTime.Parse($"{birthDate[1]}/{birthDate[0]}/{birthDate[2]}");
             CalcAge();
         }
+
         public int CalcAge()
         {    
             Age = today.Year - BirthDate.Year;
@@ -30,6 +31,7 @@ namespace ConsultarIdade
 
             return Age;
         }
+
         public void ShowAge() // 12/08/1985
         {            
             Console.Clear();
