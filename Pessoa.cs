@@ -17,7 +17,7 @@ namespace ConsultarIdade
         {
             Name = name;
             BirthDate = DateTime.Parse($"{birthDate[1]}/{birthDate[0]}/{birthDate[2]}");
-            CalculaIdade();
+            CalcAge();
         }
         public int CalcAge()
         {    
