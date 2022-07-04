@@ -24,7 +24,7 @@ namespace ConsultarIdade
         {    
             Age = today.Year - BirthDate.Year;
 
-            if (BirthDate.Month > today.Month || BirthDate.Month == today.Month && BirthDate.Day > today.Day)
+            if (BirthDate.AddYears(Age) > today)
             {
                 Age -= 1;
             }
